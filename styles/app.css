@@ -17,6 +17,12 @@ a:hover {
   color: var(--pink) !important;
 }
 
+.ant-btn:hover,
+.ant-btn:focus,
+.ant-btn:active {
+  background: none;
+}
+
 .app {
   display: flex;
   overflow: hidden;
@@ -62,7 +68,6 @@ a:hover {
   right: 10px !important;
   top: 25px !important;
   font-size: 1.2rem !important;
-  background-color: var(--bgSecondary) !important;
   border: none !important;
 }
 

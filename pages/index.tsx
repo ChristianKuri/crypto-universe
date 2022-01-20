@@ -89,7 +89,6 @@ export default function Home({ data }: Props) {
   )
 }
 
-// This gets called on every request
 export async function getStaticProps() {
   // Fetch data from external API
   const options = {
