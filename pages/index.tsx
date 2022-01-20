@@ -38,7 +38,6 @@ type Props = {
 }
 
 export default function Home({ data }: Props) {
-  console.log(data.coins)
   return (
     <ReactLayout>
       <Title level={2} className="heading">

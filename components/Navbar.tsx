@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Menu, Typography, Avatar, Button } from 'antd'
 
-import {
-  HomeOutlined,
-  MoneyCollectOutlined,
-  FundOutlined,
-  MenuOutlined,
-} from '@ant-design/icons'
+import { HomeOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons'
 
 export default function Navbar() {
   const [activeMenu, setActiveMenu] = useState<boolean>(true)
