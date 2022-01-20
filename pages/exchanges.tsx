@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactLayout from '../components/Layout'
 
 export default function exchanges() {

@@ -1,5 +1,5 @@
 import { Layout, Typography, Space } from 'antd'
-import React, { ReactNode } from 'react'
+import { ReactNode } from 'react'
 import Navbar from './Navbar'
 
 type Props = {

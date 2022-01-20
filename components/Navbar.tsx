@@ -17,13 +17,13 @@ export default function Navbar() {
         </Typography.Title>
       </div>
       <Menu theme="dark">
-        <Menu.Item icon={<HomeOutlined />}>
+        <Menu.Item icon={<HomeOutlined />} key={1}>
           <a href="/">Home</a>
         </Menu.Item>
-        <Menu.Item icon={<FundOutlined />}>
+        <Menu.Item icon={<FundOutlined />} key={2}>
           <a href="/cryptocurrencies">Crypto Currencies</a>
         </Menu.Item>
-        <Menu.Item icon={<MoneyCollectOutlined />}>
+        <Menu.Item icon={<MoneyCollectOutlined />} key={3}>
           <a href="/exchanges">Exchanges</a>
         </Menu.Item>
       </Menu>
