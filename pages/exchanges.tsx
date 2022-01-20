@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactLayout from '../components/Layout'
 
-export default function Home() {
+export default function exchanges() {
   return (
     <ReactLayout>
-      <div>Homepage</div>
+      <div>Exchanges</div>
     </ReactLayout>
   )
 }

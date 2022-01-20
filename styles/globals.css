@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import 'app.css';
+@import url('antd/dist/antd.css');

@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactLayout from '../components/Layout'
 
-export default function Home() {
+export default function cryptocurrencies() {
   return (
     <ReactLayout>
-      <div>Homepage</div>
+      <div>Cryptocurrencies</div>
     </ReactLayout>
   )
 }
